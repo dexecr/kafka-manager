@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+
+apply plugin: 'base'
+
+allprojects {
+    group = 'com.dexecr'
+    version = '0.0.1-SNAPSHOT'
+}
